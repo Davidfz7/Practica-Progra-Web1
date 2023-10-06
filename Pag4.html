@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>  
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="form-container">
+      <!-- login form -->
+
+      <form action="#" class="form-login" method="POST">
+        <div class="form-logo">
+          <h4>Beyoood expectations!!!</h4>
+        </div>
+        <div class="form-value">
+          <label for="username" style="margin-right: 5px">First Name</label>
+          <input type="text" name="username" value="" />
+        </div>
+        <div class="form-value">
+          <label for="username" style="margin-right: 5px">Last Name</label>
+          <input type="text" name="username" value="" />
+        </div>
+        <div class="form-value">
+          <label for="username" style="margin-right: 5px">Email Address</label>
+          <input type="text" name="username" value="" />
+        </div>
+        <div class="form-value">
+          <label for="password">Password</label>
+          <input
+            class="password-input"
+            type="password"
+            name="password"
+            value=""
+          />
+        </div>
+        <div class="form-value">
+          <label for="password">Confirm Password</label>
+          <input
+            class="password-input"
+            type="password"
+            name="password"
+            value=""
+          />
+        </div>
+        <div class="form-value">
+          <label for="username" style="margin-right: 5px">Mobile Phone Number</label>
+          <input type="text" name="username" value="" />
+        </div>
+        <div class="form-value">
+          <label for="username" style="margin-right: 5px">Country</label>
+          <input type="text" name="username" value="" />
+        </div>
+        <button id="form-button" class="form-button" type="button">
+          Login in
+        </button>
+      </form>
+      <a id="pagehref" href="Pag2.html" style="display: none">Home</a>
+      <!-- --------- -->
+    </div>
+    <script>
+      const loginButton = document.getElementById("form-button");
+      loginButton.addEventListener("click", function () {
+        let pagehref = document.getElementById("pagehref");
+        pagehref.click();
+      });
+    </script>
+  </body>
+</html>
